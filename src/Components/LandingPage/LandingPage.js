@@ -2,14 +2,13 @@ import React, {Fragment, useEffect} from 'react';
 import LandingNavbar from '../NavigationBars/LandingNavbar'
 import Image1 from '../Images/sponsor.png';
 import Landing from '../Images/Landing1.png';
-import Logo from '../Images/Apply.png';
 import WebFont from 'webfontloader';
 import Event from '../Images/Event.png'
-import {Card, Container, Nav, Col, Button, Figure, Row, Form, Image} from 'react-bootstrap';
+import {Card, Container, Col, Button, Figure, Row, Form, Image} from 'react-bootstrap';
 import LandingCarousel from './LandingCarousel';
 import LandingCards from './LandingCards';
 import LandingNavbarFooter from '../NavigationBars/LandingNavbarFooter'
-import { BsGlobe, BsFillTelephoneFill,BsMailbox2  } from 'react-icons/bs';
+import { BsMailbox2  } from 'react-icons/bs';
 
 const LandingPage = () => {
 
@@ -50,7 +49,7 @@ const LandingPage = () => {
         </Col>
         <Col>
         <div >
-        <img width={700} height={500} src={Landing}/>
+        <img  width={700} height={500} src={Landing} alt=""/>
         </div>
         </Col>
         </Row>
@@ -89,7 +88,7 @@ const LandingPage = () => {
           <br>
           </br>
         <div className="justify-content-end">
-        <img width={500} height={400} src={Image1}/>
+        <img width={500} height={400} src={Image1} alt=" "/>
         </div>
         </Col>
         </Row>
