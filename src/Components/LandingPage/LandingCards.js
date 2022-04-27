@@ -1,4 +1,4 @@
-import {Card, Container, Nav, Col, Button, Figure, Row, Badge} from 'react-bootstrap'
+import {Card, Container, Col, Row} from 'react-bootstrap'
 import {Fragment} from 'react';
 import Image1 from '../Images/Card1.png';
 import Image2 from '../Images/Card2.png';
@@ -11,7 +11,7 @@ const LandingCards = () => {
             <Container>
         <Row xs={7} md={2} className="g-4">
     <Col>
-      <Card height={50} style={{color: "#000000"}} style={{display: 'flex', flexDirection: 'row',  backgroundColor:"#ff7961"}}>
+      <Card height={50} style={{display: 'flex', flexDirection: 'row',  backgroundColor:"#ff7961", color: "#000000"}}>
         <Card.Img width={100}
     height={400}
     alt="300x400"
@@ -25,7 +25,7 @@ const LandingCards = () => {
       </Card>
     </Col>
     <Col>
-      <Card style={{color: "#000000" ,}} style={{display: 'flex', flexDirection: 'row', backgroundColor:"#ff7961"}}>
+      <Card style={{display: 'flex', flexDirection: 'row', color: "#000000" , backgroundColor:"#ff7961"}}>
       <Card.Img width={400}
     height={400}
     alt="300x400"
@@ -39,7 +39,7 @@ const LandingCards = () => {
       </Card>
     </Col>
     <Col>
-    <Card style={{color: "#000000"}} style={{display: 'flex', flexDirection: 'row', backgroundColor:"#ff7961"}}>
+    <Card style={{display: 'flex', flexDirection: 'row', backgroundColor:"#ff7961", color: "#000000"}}>
       <Card.Img width={100}
     height={400}
     alt="300x400"
@@ -53,7 +53,7 @@ const LandingCards = () => {
       </Card>
     </Col>
     <Col>
-    <Card style={{ color: "#000000"}} style={{display: 'flex', flexDirection: 'row', backgroundColor:"#ff7961"}}>
+    <Card style={{display: 'flex', flexDirection: 'row', backgroundColor:"#ff7961", color: "#000000"}}>
       <Card.Img width={100}
     height={400}
     alt="300x400"
