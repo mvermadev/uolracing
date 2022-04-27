@@ -1,11 +1,6 @@
-import {Navbar, Container, Nav, Row, Col, Button, Figure} from 'react-bootstrap'
+import {Navbar, Container, Row, Col, Figure} from 'react-bootstrap'
 import './LandingNavbar.css'
 import Footerlogo from '../Images/footerlogo.png'
-import Facebook from '../Images/Facbook.png'
-import Linkdeln from '../Images/Linkdeln.png'
-import Youtube from '../Images/Youtube.png'
-import Instagram from '../Images/Instagram.png'
-import Map from '../Images/Map.png'
 import { BsGlobe, BsFillTelephoneFill,BsMailbox2, BsFacebook, BsInstagram, BsLinkedin } from 'react-icons/bs';
 import { IconContext } from "react-icons";
 
@@ -71,7 +66,7 @@ import { IconContext } from "react-icons";
       <br>   
       </br>
     <Col>
-      <a href='https://facebook.com'>
+      <a href='#'>
       <IconContext.Provider value={{ color: "#F9F4F3", className: "global-class-name" }}>
         <BsFacebook />
       </IconContext.Provider>
@@ -79,7 +74,7 @@ import { IconContext } from "react-icons";
       </Col>
     
       <Col>
-      <a href='https://instagram.com'>
+      <a href='#'>
       <IconContext.Provider value={{ color: "#F9F4F3", className: "global-class-name" }}>
         <BsInstagram />
       </IconContext.Provider>
@@ -87,7 +82,7 @@ import { IconContext } from "react-icons";
       </Col>
       
       <Col>
-      <a href='https://linkdeln.com'>
+      <a href='#'>
       <IconContext.Provider value={{ color: "#F9F4F3", className: "global-class-name" }}>
         <BsLinkedin />
       </IconContext.Provider>
