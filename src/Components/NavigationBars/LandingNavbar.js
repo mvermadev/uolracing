@@ -1,5 +1,4 @@
-import {Navbar, Container, Nav, Col, Button, Figure} from 'react-bootstrap'
-import './LandingNavbar.css'
+import {Navbar, Container, Nav, Button, Figure} from 'react-bootstrap'
 import Image from '../Images/Logo.png'
       
       const LandingNavbar = () => {
